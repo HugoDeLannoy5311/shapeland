@@ -1,7 +1,9 @@
 {
-  "VERSION": "20K All FP - MIKE",
+  "VERSION": "output",
   "VERBOSITY": 0,
-  "SHOW_PLOTS": true,
+  "SHOW_PLOTS": [
+    "Attraction Average Wait Times"
+  ],
   "RNG_SEED": 5,
   "TOTAL_DAILY_AGENTS": 2000,
   "PERFECT_ARRIVALS": true,
