@@ -14,20 +14,27 @@ of python here: https://www.python.org/downloads/
 
 The code also uses Jupyter Notebooks, available here: https://jupyter.org/install
 
-## Installation and Setup
+An Anaconda environment has been provided (shapeland.yaml) that automatically installs all necessary dependencies to a new interpreter. To create the environment (also named shapeland), execute the following from the Anaconda Prompt application:
 
-Clone this repository to your local machine:
+`conda env create -f shapeland.yaml`
 
-```
-$ git clone https://github.com/TouringPlans/shapeland.git
-```
+After that, you can show the associated Jupyter Notebook from the Anaconda Prompt, by first activating the shapeland environment and then starting the server in your browser:
 
-Inside the repository is a directory called "Code".  Start Jupyter Notebook like this and you'll see the
-entire notebook that runs the simulator and prints results:
+`conda activate shapeland`
 
-```
-$ jupyter notebook amusement_park_sim.ipynb
-```
+`jupyter notebook amusement_park_sim.ipynb`
+
+If you're using an IDE, choose this newly created Conda environment as the interpreter when running the Notebook.
+Below we have provided instructions for the two most common IDEs among students.
+
+For Visual Studio Code:
+
+- Ensure that you have the Jupyter extension by Microsoft installed. If you don't have that yet, look it up on the Marketplace, install it and reboot Visual Studio Code.
+- Open the .ipynb file. You may already be prompted to choose an interpreter; if so, select the shapeland Conda environment.
+- If you aren't prompted automatically, there's a button in the top-right of the Notebook window that lists the version of Python currently selected. Click that, then "Select another kernel..." and "Python Environments".
+- This should give you a list of all available interpreters, both within and outside Anaconda. If you can't see the shapeland environment yet, click the Refresh icon in the top right of the search bar.
+
+For PyCharm: apparently the Community version only supports *reading* Jupyter Notebooks, and to run them, you need a Professional trial or license. So regarding PyCharm, my advice would be: use Visual Studio Code.
 
 ## Code Organization
 
