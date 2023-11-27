@@ -22,7 +22,7 @@ After that, you can show the associated Jupyter Notebook from the Anaconda Promp
 
 `conda activate shapeland`
 
-`jupyter notebook amusement_park_sim.ipynb`
+`jupyter notebook aps.ipynb`
 
 If you're using an IDE, choose this newly created Conda environment as the interpreter when running the Notebook.
 Below we have provided instructions for the two most common IDEs among students.
