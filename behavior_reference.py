@@ -21,8 +21,8 @@ BEHAVIOR_ARCHETYPE_PARAMETERS = {
         "attraction_preference": 0.6,
         "wait_threshold":480,
         "percent_no_child_rides": 0.0,
-        "percent_no_adult_rides": 1.0,
-        "percent_no_preference": 0.0
+        "percent_no_adult_rides": 0.0,
+        "percent_no_preference": 1.0
     },
     # Agent wants to go on a lot of attractions, but will vists activites occasionally, will wait for a while in a queue
     "ride_favorer": {
@@ -31,8 +31,8 @@ BEHAVIOR_ARCHETYPE_PARAMETERS = {
         "attraction_preference": 0.5,
         "wait_threshold": 420,
         "percent_no_child_rides": 0.0,
-        "percent_no_adult_rides": 1.0,
-        "percent_no_preference": 0.0
+        "percent_no_adult_rides": 0.0,
+        "percent_no_preference": 1.0
     },
     # Agent wants to stay for a long time and wants to see attractions and activities equally, reasonable about wait times
     "park_tourer": {
@@ -41,8 +41,8 @@ BEHAVIOR_ARCHETYPE_PARAMETERS = {
         "attraction_preference": 0.4, 
         "wait_threshold": 360,
         "percent_no_child_rides": 0.0,
-        "percent_no_adult_rides": 1.0,
-        "percent_no_preference": 0.0
+        "percent_no_adult_rides": 0.0,
+        "percent_no_preference": 1.0
     },
     # Agent doesn't want to stay long and wants to see attractions and activities equally, inpatient about wait times
     "park_visitor": {
@@ -51,8 +51,8 @@ BEHAVIOR_ARCHETYPE_PARAMETERS = {
         "attraction_preference": 0.3,
         "wait_threshold": 240,
         "percent_no_child_rides": 0.0,
-        "percent_no_adult_rides": 1.0,
-        "percent_no_preference": 0.0
+        "percent_no_adult_rides": 0.0,
+        "percent_no_preference": 1.0
     },
     # Agent doesn't want to stay long and prefers activities, reasonable about wait times
     "activity_favorer": {
@@ -61,8 +61,8 @@ BEHAVIOR_ARCHETYPE_PARAMETERS = {
         "attraction_preference": 0.2,
         "wait_threshold": 180,
         "percent_no_child_rides": 0.0,
-        "percent_no_adult_rides": 1.0,
-        "percent_no_preference": 0.0
+        "percent_no_adult_rides": 0.0,
+        "percent_no_preference": 1.0
     },
     # Agent wants to visit a lot of activities, reasonable about wait times
     "activity_enthusiast": {
@@ -71,8 +71,8 @@ BEHAVIOR_ARCHETYPE_PARAMETERS = {
         "attraction_preference": 0.2,
         "wait_threshold": 90,
         "percent_no_child_rides": 0.0,
-        "percent_no_adult_rides": 1.0,
-        "percent_no_preference": 0.0
+        "percent_no_adult_rides": 0.0,
+        "percent_no_preference": 1.0
     },
 
 }

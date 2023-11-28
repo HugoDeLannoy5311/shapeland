@@ -365,7 +365,7 @@ class Park:
             plt.close()
              
 
-    def make_plots(self, show=False):
+    def make_plots(self, show=False, hide_expedited=False):
         """ Plots key park information, save to version folder """
 
         version_path = os.path.join(f"{self.version}")
@@ -404,13 +404,14 @@ class Park:
                     "Queue Type": "Standby"
                 }
             )
-            avg_queue_wait_time.append(
-                {
-                    "Attraction": attraction_name,
-                    "Average Wait Time": sum(exp_queue_wait_list)/len(exp_queue_wait_list),
-                    "Queue Type": "Expedited"
-                }
-            )
+            if(not hide_expedited):
+                avg_queue_wait_time.append(
+                    {
+                        "Attraction": attraction_name,
+                        "Average Wait Time": sum(exp_queue_wait_list)/len(exp_queue_wait_list),
+                        "Queue Type": "Expedited"
+                    }
+                )
 
         # Activities
         total_vistors = []
